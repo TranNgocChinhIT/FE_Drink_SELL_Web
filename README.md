@@ -21,7 +21,7 @@ The Drinks Selling Web project is a HTML, CSS, JavaScript application developed 
 
 ## Installation
 
-1. Clone repository của dự án web: git clone https://github.com/KhoaAnhDoNguyen/IE104_Projects
+1. Clone repository của dự án web: git clone https://github.com/TranNgocChinhIT/FE_Drink_SELL_Web
 2. Run HTML files on Visual Studio
 
 ## Contributing
