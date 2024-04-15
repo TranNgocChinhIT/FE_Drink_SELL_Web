@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <title>Buy Screen</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="./assets_about_us/img/themify-icons/themify-icons.css">
+    
+    
+    <!-- Link file CSS cho PC -->
+    <link rel="stylesheet" media="(min-width: 1281px)" href="./assets_buyscreen/BuyScreen.css">
+
+    <!-- Link file CSS cho tablet -->
+    <link rel="stylesheet" media="(max-width: 1280px) and (min-width: 1000px)" href="./assets_buyscreen/BuyScreen_tl.css">
+
+    <!-- Link file CSS cho điện thoại di động -->
+    <link rel="stylesheet" media="(max-width: 999px)" href="./assets_buyscreen/BuyScreen_mb.css">
+
+
+</head>
+
+<body>
+
+    <!-- Này là phần top bar -->
+     <!-- Này là phần top bar -->
+     <div class="topBar">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <a href = "">
+                        <img src="./assets_mainScreen/images/location.png" alt="StoreIcon" class="topBarIcon">
+                        <span>Hơn 1000 cửa hàng trên toàn quốc</span>
+                    </a>
+                </div>
+                <div>
+                    <a href = "">
+                        <img src="./assets_mainScreen/images/telephone.png" alt="telephoneIcon" class="topBarIcon">
+                        <span>Đặt hàng: 1800.6969</span>
+                    </a>
+                </div>
+                <div class="toLogin">
+                    <a href = "./log_in.html">
+                        <img src="./assets_mainScreen/images/user.png" alt="userIcon" class="topBarIcon">
+                        <span>Đăng nhập</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Đây là phần header -->
+    <header>
+
+        <div class="navbar">
+            <div class="nav-links" id="nav-links">
+                <ul class="clearfix">
+                    <li>
+                        <a href="./index.html"><img src="./assets_MenuPage/img/logoName.png" alt="logoName" class="logo"></a>
+                    </li>
+                    <li>
+                        <a id="Coffee1" class="Coffee navbar-item" href="./MenuPage.html?id=Coffee1">Cà phê</a>
+                    </li>
+                    <li>
+                        <a id="Tea1" class="Tea navbar-item" href="./MenuPage.html?id=Tea1">Trà</a>
+                    </li>
+                    <li>
+                        <div class="menu-item">
+                            <a href="./MenuPage.html" class="menu-name">
+                                <span>Menu</span>
+                                <img src="./assets_MenuPage/img/down-arrow.png" alt="downArrowIcon" class="downArrowIcon">
+                            </a>
+
+                            <div class="product-menu" id="productMenu">
+                                <!-- Nội dung bảng sản phẩm chi tiết -->
+                                <ul class="menu_child">
+                                    <li>
+                                        <a class="All menu_title" href="./MenuPage.html">Tất cả</a>
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <a class="Coffee menu_title" href="./MenuPage.html?id=Coffee1">Cà phê</a>
+                                            </li>
+                                            <li>
+                                                <a href="./BuyScreen.html?id=PHINDI">PHINDI</a>
+                                            </li>
+                                            <li>
+                                                <a href="./BuyScreen.html?id=Macchiato">Macchiato</a>
+                                            </li>
+                                            <li>
+                                                <a href="./BuyScreen.html?id=Latte">Latte</a>
+                                            </li>
+                                            <li>
+                                                <a href="./BuyScreen.html?id=CoffeePhin">Cà phê phin</a>
+                                            </li>
+                                            <li>
+                                                <a href="./BuyScreen.html?id=BacXiu">Bạc xỉu</a>
+                                            </li>
+                                            <li>
+                                                <a href="./BuyScreen.html?id=Americano">Americano</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <a class="Tea menu_title" href="./MenuPage.html?id=Tea1">Trà</a>
+                                            </li>
+                                            <li>
+                                                <a href="./BuyScreen.html?id=TraXanh">Trà xanh đậu đỏ</a>
+                                            </li>
+                                            <li>
+                                                <a href="./BuyScreen.html?id=TraDao">Trà xanh đào</a>
+                                            </li>
+                                            <li>
+                                                <a href="./BuyScreen.html?id=TraVai">Trà thạch vải</a>
+                                            </li>
+                                            <li>
+                                                <a href="./BuyScreen.html?id=TraThachDao">Trà thạch đào</a>
+                                            </li>
+                                            <li>
+                                                <a href="./BuyScreen.html?id=TraSen">Trà sen vàng</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <a id="Detox1" class="Detox menu_title" href="./MenuPage.html?id=Detox1">Detox</a>
+                                            </li>
+                                            <li>
+                                                <a href="./BuyScreen.html?id=DetoxThanhLoc">Detox thanh lọc</a>
+                                            </li>
+                                            <li>
+                                                <a href="./BuyScreen.html?id=DetoxGiamCan">Detox giảm cân</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <a id="Cake1" class="Cake menu_title" href="./MenuPage.html?id=Cake1">Bánh</a>
+                                            </li>
+                                            <li>
+                                                <a href="./BuyScreen.html?id=Tiramisu">Tiramisu</a>
+                                            </li>
+                                            <li>
+                                                <a href="./BuyScreen.html?id=Tart">Tart trứng</a>
+                                            </li>
+                                            <li>
+                                                <a href="./BuyScreen.html?id=PannaCotta">Panna cotta</a>
+                                            </li>
+                                            <li>
+                                                <a href="./BuyScreen.html?id=Mousse">Mousse cake</a>
+                                            </li>
+                                            <li>
+                                                <a href="./BuyScreen.html?id=BongLan">Bông lan trứng muối</a>
+                                            </li>
+                                            <li>
+                                                <a href="./BuyScreen.html?id=Biscotti">Biscotti</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="./about_us.html"><span>Về chúng tôi</span></a>
+                    </li>
+                    <li>
+                        <a href="./blog.html"><span>Blog list</span></a>
+                    </li>
+                    <li>
+                        <div class="searchBar">
+                            <input type="text" id="searchInput" onkeyup="search(event)" placeholder="Tìm kiếm sản phẩm....">
+                            <a href="#" class="image-link">
+                                <img src="./assets_MenuPage/img/loupe.png" alt="cartIcon" class="cartIcon" id="cartIcon">
+                            </a>
+                            <div class="product-menu2" id="productMenu2">
+                                <!-- Nội dung bảng sản phẩm chi tiết -->
+                                <ul id="menu_child2">
+
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </header>  
+
+    <main>
+        <p class="intro" id="intro-id"></p>
+        <section class="product-info">
+            <h1 style="display: none;">Main</h1>
+            <div class="product-image">
+                <img src="#" id="product-show" alt="Product Image">
+            </div>
+
+            <div class="product-price">
+                <p style="font-size: 40px;" id="product-name"></p>
+                <p style="color:gold; font-size: 40px;" id="product-price-id"></p>
+                <p style="margin:35px ; margin-left:100px; font-weight: normal; margin-top: 15px;">Chọn size (bắt buộc)</p>
+                
+                <div class="list-size">
+                    <div class="size-product" id="size-small">
+                        <a href="#" onclick="toggleBackgroundColor('size-small')">
+                            <img src="./assets_buyscreen/Ảnh/Header&FooterImage/PaperCup_Icon.png" alt="PaperCup Icon">Nhỏ + 0đ
+                        </a>
+                    </div>
+                
+                    <div class="size-product" id="size-normal">
+                        <a href="#" onclick="toggleBackgroundColor('size-normal')">
+                            <img src="./assets_buyscreen/Ảnh/Header&FooterImage/PaperCup_Icon.png" alt="PaperCup Icon">Vừa + 10.000đ
+                        </a>
+                    </div>
+                
+                    <div class="size-product" id="size-big">
+                        <a href="#" onclick="toggleBackgroundColor('size-big')">
+                            <img src="./assets_buyscreen/Ảnh/Header&FooterImage/PaperCup_Icon.png" alt="PaperCup Icon">Lớn + 16.000đ
+                        </a>
+                    </div>
+                </div>                
+
+                <p style="margin:25px ; margin-left:100px; font-weight: normal; margin-top: 10px;">Topping</p>
+
+                <div class="list-topping">
+                    <div class="topping" id="KPM">
+                        <a href="#" onclick="ToppingChoosing('KPM')"><p>Kem Phô Mai + 10.000đ</p></a>
+                    </div>
+
+                    <div class="topping" id="TV">
+                        <a href="#" onclick="ToppingChoosing('TV')"><p>Trái Vải + 5.000đ</p></a>
+                    </div>
+                </div>
+
+                <div class="ul-topping" id="HS">
+                    <a href="#" onclick="ToppingChoosing('HS')"><p style="font-weight: normal;">Hạt Sen + 10.000đ</p></a>
+                </div>
+                <div class="ul-topping" id="TOL">
+                    <a href="#" onclick="ToppingChoosing('TOL')"><p style="font-weight: normal;">Thạch OOLong + 10.000đ</p></a>
+                </div>
+                <!--
+                <div class="delivery">
+                    <a href=""> <p> <img src="Ảnh\Header&FooterImage\Delivery.png">Giao hàng tận nơi</p></a>
+                </div> 
+                -->      
+                <button  class="delivery place-buy-btn js-buy-ticket"><span> <img src="./assets_buyscreen/Ảnh/Header&FooterImage/Delivery.png" alt="Delivery Icon">Giao hàng tận nơi</span></button> 
+            </div>
+        </section>
+
+        <div class="smallpicture">
+            <img src="#"  id="smallpicture-id" alt="Product Image">
+        </div>
+    </main>
+    
+    <hr style="margin-top: 100px;" class="horizontal-line">
+
+    <aside>
+        <p style="font-weight: bold;">Mô tả sản phẩm</p>
+        <p style="font-size: 22px;" id="product-description"></p>
+    </aside>
+
+    <hr style="margin-top: 70px;" class="horizontal-line">
+    
+    <div class="SPLQ">
+            <p>Sản phẩm liên quan</p>
+            <div class="relative_drinks">
+                <div class="relative_drinks_list">
+                    <img src="./assets_buyscreen/Ảnh/Càphê/BacXiu.png" id="BacXiu" alt="Product1">
+                    <p>Bạc Xỉu</p>
+                    <p style="margin-top: -10px; font-weight: normal;">45.000 đ</p>
+                </div>
+
+                <div class="relative_drinks_list">
+                    <img src="./assets_buyscreen/Ảnh/Trà/TraXanhDauDo.png" id="TraXanh" alt="Product2">
+                    <p>Trà Xanh Đậu Đỏ</p>
+                    <p style="margin-top: -10px; font-weight: normal;">55.000 đ</p>
+                </div>
+
+                <div class="relative_drinks_list">
+                    <img src="./assets_buyscreen/Ảnh/Trà/TraThachDao.png" id="TraThachDao" alt="Product3">
+                    <p>Trà thạch đào</p>
+                    <p style="margin-top: -10px; font-weight: normal;">40.000 đ</p>
+                </div>
+
+                <div class="relative_drinks_list">
+                    <img src="./assets_buyscreen/Ảnh/Detox/DetoxThanhLoc.png" id="DetoxThanhLoc" alt="Product4">
+                    <p>Detox Thanh Lọc</p>
+                    <p style="margin-top: -10px; font-weight: normal;">25.000 đ</p>
+                </div>
+
+            </div>
+    </div>
+
+    
+
+<!--delivery btn start-->
+<div class="modal js-modal">
+    <div class="modal-container js-modal-container">
+        
+        <header class="modal-header">
+            <i class="ti-bag"></i>
+            Đơn đặt hàng 
+        </header>
+        <div class="modal-body">
+            <!-- Thêm một dòng để hiển thị thông báo -->
+            <label for="name" class="modal-label">
+                <i class="ti-shopping-cart"></i>
+                Họ và tên 
+            </label>
+            <input id="name" type="text" class="modal-input" placeholder="VD : Nguyễn Văn A">
+
+            <label for="phone_number" class="modal-label">
+                <i class="ti-user"></i>
+                Số điện thoại
+            </label>
+            <input id="phone_number" type="text" class="modal-input" placeholder="0123xxxxxx">
+            
+            <label for="address" class="modal-label">
+                <i class="ti-location"></i>
+                Địa chỉ 
+            </label>
+            <input id="address" type="text" class="modal-input" placeholder="Số 123 / Đường / Quận">
+
+            <label for="note" class="modal-label">
+                <i class="ti-location"></i>
+                Ghi Chú 
+            </label>
+            <input id="note" type="text" class="modal-input" placeholder="Ghi chú">
+
+            <button id="buy-ticket">
+                Đặt hàng <i class="ti-check"></i>
+            </button>
+            <button class="cancel-ticket js-modal-close modal-close">
+                Hủy <i class="ti-close"></i>
+            </button>
+        </div>
+    </div>
+</div>
+ <!--delivery btn end-->
+ <footer id="footer">
+    <div class="footer__info">
+        <div class="text-center footer__info-item">
+            <img src="./assets_about_us/img/footer/logo.png" alt="primary logo" class="footer__logo-img">
+            <div class='social-icon'>
+                <a href="#" class="facebook">
+                    <i class="ti-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="#" class="instagram">
+                    <i class="ti-instagram"></i>
+                </a>
+                <a href="#" class="twitter">
+                    <i class="ti-twitter"></i>
+                </a>
+                <a href="#" class="youtube">
+                    <i class="ti-youtube"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer__info-item">
+            <div class="tilte">
+                <h4>Giới thiệu</h4>
+            </div>
+            <ul>
+                <li><a href="./about_us.html">Về chúng tôi</a></li>
+                <li><a href="./MenuPage.html">Sản phẩm</a></li>
+                <li><a href="">Khuyến mãi</a></li>
+                <li><a href="./blog-1.html">Chuyện cà phê</a></li>
+                <li><a href="./index.html">Cửa Hàng</a></li>
+                <li><a href="./blog.html">Tuyển dụng</a></li>
+            </ul>
+        </div>
+        <div class="footer__info-item">
+            <div class="tilte">
+                <h4>Điều khoản</h4>
+            </div>
+            <ul>
+                <li><a href="">Điều khoản sử dụng</a></li>
+                <li><a href="">Chính sách bảo mật thông tin</a></li>
+                <li><a href="">Hướng dẫn xuất hóa đơn GTGT</a></li>
+            </ul>
+        </div>
+        <div class="footer__info-item">
+            <div class="footer__location">
+                <i class="ti-location-pin"></i>
+                <a href="">Hơn 150 cửa hàng trên toàn quốc</a>
+            </div>
+            <div class="footer__call">
+                <i class="ti-mobile"></i>
+                <a href="tel:012345678">012345</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="line-sereprate"></div>
+
+    <div class="footer__address">
+        <div class="address-info">
+            <p>Công ty cổ phần thương mại dịch vụ Trà Cà Phê Team 4</p>
+            <p>Mã số DN: 0312867172 do sở kế hoạch và đầu tư tp. HCM cấp ngày 23/07/2014. Người đại diện: Team 4</p>
+            <p>Địa chỉ: Khu phố 6 Phường Linh Trung Quận Thủ Đức</p>
+            <p>© 2014-2022 Công ty cổ phần thương mại dịch vụ Trà Cà Phê VN mọi quyền bảo lưu</p>
+        </div>
+    </div>
+</footer>
+<script src="./assets_buyscreen/BuyScreen.js"></script>
+<script src="./assets_mainScreen/mainScreen.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
